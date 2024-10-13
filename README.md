@@ -33,6 +33,19 @@ To run the project locally, follow these steps:
    dart run main2.dart
    ```
    
+## Running Unit Tests
+
+This project includes some unit tests for core logic, such as refining the possible letters based on API feedback. To run the unit tests, follow these steps
+
+1. Make sure you have `test` package installed in Dart. If not, install it by running:
+   ```
+   dart pub add test
+   ```
+2. Run the unit tests:
+   ```
+   dart test
+   ```
+   
 ## Explanation of Algorithm
 
 1. **Initial Guessing**: The algorithm starts by guessing a random word generated from a pool of letters (alphabet).
